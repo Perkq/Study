@@ -1,0 +1,14 @@
+.mainList_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.wrapperList {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,23 @@
+.product {
+    margin-left: 160px;
+    margin-top: 46px;
+    margin-bottom: 90px;
+    padding-right: 197px;
+  }
+  .h1 {
+    /* position: relative; */
+    margin-bottom: 28px;
+    font-size: 60px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    color: #283337;
+  }
+  .h3 {
+    /* position: relative; */
+    margin: 0px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: #40494d;
+  }

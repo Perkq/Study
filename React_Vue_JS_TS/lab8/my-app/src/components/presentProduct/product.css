@@ -1,0 +1,44 @@
+.wrapper{
+    width: 250px;
+    background-color: rgb(61, 61, 61);
+    color: rgba(255, 255, 255, 0.829);
+    border-radius: 15px;
+}
+.itemHeader p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.imageCar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 160%;
+   
+}
+.itemImageDiv{
+    position: relative;
+    width: 250px;
+    height: 258px;
+    overflow: hidden;
+}
+.Text p{
+    margin-top: 0;
+    padding-bottom: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #B1B1B1;
+}
+.itemHeader, .Text{
+    padding-left: 10px;
+}

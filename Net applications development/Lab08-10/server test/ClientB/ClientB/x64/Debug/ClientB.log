@@ -1,0 +1,5 @@
+﻿  ClientB.cpp
+F:\Прога\2 курс\2_сем\Шиман\Lab08-10\server test\ClientB\ClientB\ClientB.cpp(56,25): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+F:\Прога\2 курс\2_сем\Шиман\Lab08-10\server test\ClientB\ClientB\ClientB.cpp(109,26): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+F:\Прога\2 курс\2_сем\Шиман\Lab08-10\server test\ClientB\ClientB\ClientB.cpp(117,26): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  ClientB.vcxproj -> F:\Прога\2 курс\2_сем\Шиман\Lab08-10\server test\ClientB\x64\Debug\ClientB.exe

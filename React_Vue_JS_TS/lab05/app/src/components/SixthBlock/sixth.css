@@ -1,0 +1,42 @@
+.container  p.h1 {
+    width: 520px;
+    text-align: center;
+    margin-left: -50px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.container  p.h3 {
+    text-align: center;
+    padding-left: 40px;
+    
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 36px;
+width: 360px;
+color: #283337;
+}
+
+.container button {
+    position: relative;
+    left: 85px;
+}
+
+.container {
+margin-top: 144px;
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 60px;
+background-color: #F3F7F4;
+letter-spacing: 1px;
+text-align: center;
+color: #283337;
+padding-left: 360px;
+margin-left: 0px;
+
+height: 602px;
+}

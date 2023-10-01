@@ -1,0 +1,24 @@
+<Container xmlns="http://msiter.ru"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://msiter.ru validation.xsd">
+
+    <BookList>
+        <magazin>
+            <name>Molodechno news</name>
+            <cost>100</cost>
+            <pagevalue>8</pagevalue>
+            <publisher>Artsiom Nekhayonak</publisher>
+        </magazin>
+        <postcard>
+            <name>Liebe Mahne</name>
+            <cost>20</cost>
+            <pagevalue>2</pagevalue>
+            <holidays>februar23</holidays>
+        </postcard>
+        <regularBook>
+            <name>Harry Potter</name>
+            <cost>150</cost>
+            <pagevalue>200</pagevalue>
+            <genre>fantastic</genre>
+        </regularBook>
+    </BookList>
+</Container>

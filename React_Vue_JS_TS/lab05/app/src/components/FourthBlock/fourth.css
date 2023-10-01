@@ -1,0 +1,123 @@
+#Support ul {
+  display: block;
+}
+
+.main_container {
+    width: 100%;
+    display: flex;
+    margin-top: 300px;
+  }
+  
+  .text_container {
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .head {
+  width: 50%;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  /* or 100% */
+  
+  letter-spacing: 1px;
+  margin-left: 70px;
+  margin-bottom: 25px;
+  }
+  
+  .main_text_div {
+    font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  width: 385px;
+  text-align: left;
+  margin-left: 70px;
+  
+  
+  color: #40494D;
+  margin-bottom: 25px;
+  }
+  
+  .list_header {
+    font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  /* identical to box height, or 127% */
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 70px;
+  
+  
+  color: #283337;
+  }
+  
+  .main_container ul {
+    list-style-type: none;
+    font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  margin-left: 0px;
+  
+  
+  
+  color: #40494D;
+  }
+  
+  .main_container li {
+    margin: 20px 0 20px 100px;
+    
+  }
+  
+  .end_text {
+    font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  margin-left: 70px;
+  
+  
+  
+  color: #40494D;
+  }
+  
+  .video_container {
+    place-self: center;
+    display: inline-block;
+    width: 640px;
+    height: 360px;
+    background: url("Rectangle.jpg");
+    border-radius: 6px;
+    margin-right: 100px;
+  }
+  
+  .cirqle {
+      z-index: 10;
+      background-repeat: no-repeat;  
+      position: relative;
+      top: 120px;
+      left: 30px;
+      opacity: 50%; 
+  }
+  
+  .triangle {
+      z-index: 100;
+      background-repeat: no-repeat;
+      position: relative;
+      top: 80px;
+      right: 40px;
+  }
+  

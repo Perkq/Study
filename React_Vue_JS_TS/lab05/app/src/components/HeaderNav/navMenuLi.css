@@ -1,0 +1,11 @@
+li{
+    list-style: none;
+    margin-right: 70px;
+
+  }
+  li a{
+  text-decoration:none;
+  color: #40494D;
+  font-size: 16px;
+  font-family: Arial;
+} 

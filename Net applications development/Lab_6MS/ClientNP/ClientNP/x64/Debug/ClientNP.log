@@ -1,0 +1,3 @@
+﻿  ClientNP.cpp
+F:\Прога\2 курс\2_сем\Шиман\Lab_6MS\ClientNP\ClientNP\ClientNP.cpp(38,7): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+  ClientNP.vcxproj -> F:\Прога\2 курс\2_сем\Шиман\Lab_6MS\ClientNP\x64\Debug\ClientNP.exe

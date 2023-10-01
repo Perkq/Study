@@ -1,0 +1,3 @@
+﻿  ServerB.cpp
+F:\Прога\2 курс\2_сем\Шиман\laba4\lab04\ServerB\ServerB\ServerB.cpp(116,12): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  ServerB.vcxproj -> F:\Прога\2 курс\2_сем\Шиман\laba4\lab04\ServerB\x64\Debug\ServerB.exe

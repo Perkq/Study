@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="apache.skywalking.apm.toolkit.log4j.1.x" type="repository">
+    <properties maven-id="org.apache.skywalking:apm-toolkit-log4j-1.x:8.10.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/skywalking/apm-toolkit-log4j-1.x/8.10.0/apm-toolkit-log4j-1.x-8.10.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

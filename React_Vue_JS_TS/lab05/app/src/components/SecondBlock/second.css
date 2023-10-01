@@ -1,0 +1,77 @@
+.secondBlock {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 720px 720px;
+    grid-template-rows: 728px;
+  }
+  
+  .producrDescription {
+    margin-right: 160px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    background-color: #f3f7f4;
+  }
+  
+  .h2 {
+    /* position: relative; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 33.88px;
+    font-weight: 400;
+  
+    color: #283337;
+  }
+  .h3 {
+    /* position: relative; */
+    margin: 0px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: #40494d;
+  }
+  .buttonProduct {
+    width: 243px;
+    font-size: 18px;
+    margin-top: 55px;
+    
+    /* width: 243px;
+    height: 56px;
+    margin-top: 39px;
+    border-radius: 56px;
+    background-color: #283337; */
+    /* background-image: url("Rectangle.png"); */
+  }
+  /* .textButtonProduct { */
+    /* position: absolute; */
+    /* position: relative;
+    width: 193px;
+    height: 21px;
+    left: calc(50% - 193px / 2);
+    top: 16px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff; */
+  /* } */
+  .producrDescription {
+    padding: 80px 100px 0 80px;
+  }
+  .imgProduct {
+    width: 90px;
+    height: 90px;
+    background-image: url("Rectangle2.png");
+  }
+  .h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: right;
+    margin: 38px 30px;
+  
+    color: #283337;
+  }

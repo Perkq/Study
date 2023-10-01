@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apm-toolkit-log4j-1.x-8.10.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lab6/lib/apm-toolkit-log4j-1.x-8.10.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

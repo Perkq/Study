@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://msiter.ru" xmlns="http://msiter.ru" elementFormDefault="qualified">
+
+    <xs:element name="Container">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="BookList">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="magazin" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string" />
+                                        <xs:element name="cost" type="xs:int" />
+                                        <xs:element name="pagevalue" type="xs:int" />
+                                        <xs:element name="publisher" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="postcard" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string" />
+                                        <xs:element name="cost" type="xs:int" />
+                                        <xs:element name="pagevalue" type="xs:int" />
+                                        <xs:element name="holidays">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="februar23"/>
+                                                        <xs:enumeration value="NewYear"/>
+                                                        <xs:enumeration value="Chrismas"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="regularBook" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string" />
+                                        <xs:element name="cost" type="xs:int" />
+                                        <xs:element name="pagevalue" type="xs:int" />
+                                        <xs:element name="genre" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
